@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+</head>
+<body>
+	<table border = "1" style="width:60%">
+		<thread>
+		<tr>
+			<th colspan="3">About--113306042</th>
+		</tr>
+	    </thread>
+
+		<tr>
+			<th rowspan="4">
+				<img src = "webarebears.jpg" width = "170" height = "300" alt = "webarebears">
+			<p><label>personal photo
+			</label></p>
+			</th>
+			
+		</tr>
+
+		<tr>
+			<td colspan="2">
+			<label>Name:
+				<input name = "name" type = "text" size = "25" maxlength = "30">
+			</label>
+			<form>
+			<br><label>Gender:
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</label></br>
+		    </form>
+        </tr>
+
+        <tr>
+        	<td colspan="1">
+        	<form>
+        	<label>County:
+        		<select name="county">
+        			<option value="taipei">Taipei</option>
+        			<option value="tainan">Tainan</option>
+        			<option value="taichung">Taichung</option>
+        			<option value="taoyuan">Taoyuan</option>
+        		</select>
+        	</label>
+            </form>
+            </td>
+
+        	<td colspan="1">
+        	<form>
+        	<label for="birthday">Birthday:</label>
+        		<input type="date" id="birthday" name="birthday">
+        	</form>
+            </td>
+
+        <tr>
+        	<td colspan="2">
+        	<label>E-mail:
+        		<input name = "name" type = "text" size = "25" maxlength = "30">
+			</label>
+		    </td>
+		</tr>
+
+		<tbody>
+			<tr>
+				<th><p>Hobby</p></th>
+				<td colspan="2">
+				<form>
+					<input type="checkbox" name="hobby" value="swimming">Swimming
+					<input type="checkbox" name="hobby" value="volleyball">Volleyball
+					<input type="checkbox" name="hobby" value="movie">Movie
+					<input type="checkbox" name="hobby" value="game">Game
+					<input type="checkbox" name="hobby" value="sleep">Sleep
+				</form>
+			    </td>
+			</tr>
+
+			<tr>
+				<th><p>Skill</p></th>
+				<td colspan="2">
+				<form>
+					<input type="checkbox" name="skill" value="java">Java
+					<input type="checkbox" name="skill" value="html">HTML
+					<input type="checkbox" name="skill" value="python">Python
+					<input type="checkbox" name="skill" value="microsoft office">Microsoft Office
+					<input type="checkbox" name="skill" value="premiere">Premiere
+				</form>
+			    </td>
+			</tr>
+
+			<tr>
+				<th><p>Say Something</p></th>
+				<td colspan="2">
+					<form>
+						<input type="say something here" name="say something here" placeholder="Say something here." required>
+					</form>
+				</td>
+			</tr>
+
+			<tr>
+				<p><td colspan="3">
+                    <form action="" method="post">
+                        <button type="submit">提交</button>
+                        <button type="reset">重設</button>
+                    </form>
+				</td></p>
+			</tr>
+		</tbody>
+
+</table>
+</body>
+</html>
